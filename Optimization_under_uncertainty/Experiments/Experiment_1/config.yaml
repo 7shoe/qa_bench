@@ -1,0 +1,15 @@
+dataset: mnist
+subset: train
+n_init: 200
+n_total: 300
+standardize: True
+model: resnet
+layer: 4 
+epochs: 99
+metric: l1
+objective: mu_tr
+acquisition: ucb
+bound: 2.0
+beta: 0.5
+dim_red: pca
+dim_eff: 6
